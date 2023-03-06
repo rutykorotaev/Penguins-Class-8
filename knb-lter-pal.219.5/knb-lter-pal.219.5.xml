@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-pal.219.5" scope="system"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=PAL,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset scope="document">
+    <alternateIdentifier>219</alternateIdentifier>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/98b16d7d563f265cb52372c8ca99e60f</alternateIdentifier>
+    <title>Structural size measurements and isotopic signatures of foraging among adult male and
+      female Adélie penguins (Pygoscelis adeliae) nesting along the Palmer Archipelago near Palmer
+      Station, 2007-2009</title>
+    <creator>
+      <organizationName>Palmer Station Antarctica LTER</organizationName>
+      <address>
+        <deliveryPoint>Palmer Station Antarctica LTER Office 208 Geoscience 61 Route 9W - PO Box
+          1000</deliveryPoint>
+        <city>Palisades</city>
+        <administrativeArea>New York</administrativeArea>
+        <postalCode>10964-8000</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Kristen</givenName>
+        <surName>Gorman</surName>
+      </individualName>
+      <organizationName>Simon Fraser University, Vancouver, BC</organizationName>
+      <electronicMailAddress>kgorman@sfu.ca</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>Palmer Station Antarctica LTER</organizationName>
+      <address>
+        <deliveryPoint>Palmer Station Antarctica LTER Office 208 Geoscience 61 Route 9W - PO Box
+          1000</deliveryPoint>
+        <city>Palisades</city>
+        <administrativeArea>New York</administrativeArea>
+        <postalCode>10964-8000</postalCode>
+        <country>USA</country>
+      </address>
+    </metadataProvider>
+    <pubDate>2017-03-29</pubDate>
+    <abstract>Sexual segregation in vertebrate foraging niche is often associated with sexual size
+      dimorphism (SSD), i.e., ecological sexual dimorphism. We examined ecological sexual dimorphism
+      among sympatric nesting Pygoscelis penguins near Palmer Station, Antarctica, asking whether
+      environmental variability in the form of winter sea ice is associated with differences in male
+      and female pre-breeding foraging niche. Each season, study nests, where pairs of adults were
+      present, were individually marked and chosen before the onset of egg-laying, and consistently
+      monitored. When study nests were found at the one-egg stage, both adults were captured to
+      obtain blood samples used for molecular sexing and stable isotope analyses, and measurements
+      of structural size and body mass. At the time of capture, each adult penguin was quickly blood
+      sampled (~1 ml) from the brachial vein. After handling, individuals at study nests were
+      further monitored to ensure the pair reached clutch completion, i.e., two eggs. Molecular
+      analyses were conducted at Simon Fraser University following standard PCR protocols, and
+      stable isotope analyses were conducted at the Stable Isotope Facility at the University of
+      California, Davis using an elemental analyzer interfaced with an isotope ratio mass
+      spectrometer</abstract>
+    <keywordSet>
+      <keyword>birds</keyword>
+      <keyword>biology</keyword>
+      <keyword>isotopes</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This data package is released to the public domain under Creative Commons CC0 1.0 No
+        Rights Reserved (see: https://creativecommons.org/publicdomain/zero/1.0/). It is considered
+        professional etiquette to provide attribution of the original work if this data package is
+        shared in whole or by individual components. A generic citation is provided for this data
+        package on the website https://portal.edirepository.org (herein website” in the summary
+        metadata page. Communication (and collaboration) with the creators of this data package is
+        recommended to prevent duplicate research or publication. This data package (and its
+        components) is made available as is and with no warranty of accuracy or fitness for use.
+        The creators of this data package and the website shall not be liable for any damages
+        resulting from misinterpretation or misuse of the data package or its components. Periodic
+        updates of this data package may be available from the website. Thank you.</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://oceaninformatics.ucsd.edu/datazoo/catalogs/pallter/datasets/219</url>
+      </online>
+    </distribution>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2007</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2009</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>PAL LTER Information Manager</positionName>
+      <organizationName>Palmer Station Antarctica LTER</organizationName>
+      <electronicMailAddress>pallter-im@ucsd.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Palmer Station Antarctica LTER</organizationName>
+      <address>
+        <deliveryPoint>Palmer Station Antarctica LTER Office 208 Geoscience 61 Route 9W - PO Box
+          1000</deliveryPoint>
+        <city>Palisades</city>
+        <administrativeArea>New York</administrativeArea>
+        <postalCode>10964-8000</postalCode>
+        <country>USA</country>
+      </address>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>General Methods</title>
+            <para>Each season, study nests, where pairs of adults were present, were individually
+              marked and chosen before the onset of egg-laying, and consistently monitored. When
+              study nests were found at the one-egg stage, both adults were captured to obtain blood
+              samples used for molecular sexing and stable isotope analyses, and measurements of
+              structural size and body mass. At the time of capture, each adult penguin was quickly
+              blood sampled (~1 ml) from the brachial vein using a sterile 3 ml syringe and
+              heparinized infusion needle. Collected blood was stored in 1.5 ml micro-centrifuge
+              tubes that were kept cool. In the field, a small amount of whole blood was smeared on
+              clean filter paper stored in a 1.5 ml micro-centrifuge tube for molecular sexing.
+              Measurements of culmen length and depth (using dial calipers ± 0.1 mm), right flipper
+              (using a ruler ± 1 mm), and body mass (using 5 kg ± 25 g or 10 kg ± 50 g Pesola spring
+              scales and a weigh bag) were obtained to quantify body size variation. After handling,
+              individuals at study nests were further monitored to ensure the pair reached clutch
+              completion, i.e., two eggs. Molecular analyses were conducted at Simon Fraser
+              University following standard PCR protocols, and stable isotope analyses were
+              conducted at the Stable Isotope Facility at the University of California, Davis using
+              an elemental analyzer interfaced with an isotope ratio mass spectrometer</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable id="219.table_219">
+      <entityName>StructuralsizemeasurementsandisotopicsignaturesAdeliePenguins</entityName>
+      <entityDescription>Main data table for dataset</entityDescription>
+      <physical>
+        <objectName>table_219.csv</objectName>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+              <literalCharacter>\</literalCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-pal/219/5/002f3893385f710df69eeebe893144ff</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="219.table_219.studyName">
+          <attributeName>studyName</attributeName>
+          <attributeDefinition>Sampling expedition from which data were collected, generated, etc.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling expedition from which data were collected, generated, etc.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="219.table_219.col_4403">
+          <attributeName>Sample Number</attributeName>
+          <attributeDefinition>continuous numberng sequence for each sample</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="219.table_219.col_4404">
+          <attributeName>Species</attributeName>
+          <attributeDefinition>a string representing the species of an organism</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>a string representing the species of an organism</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="219.table_219.col_4405">
+          <attributeName>Region</attributeName>
+          <attributeDefinition>Nominal region of Palmer LTER sampling grid</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Nominal region of Palmer LTER sampling grid</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="219.table_219.col_4406">
+          <attributeName>Island</attributeName>
+          <attributeDefinition>Island near Palmer Station where samples were collected</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Island near Palmer Station where samples were collected</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="219.table_219.col_4407">
+          <attributeName>Stage</attributeName>
+          <attributeDefinition>Reproductive stage at sampling</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Reproductive stage at sampling</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="219.table_219.col_4408">
+          <attributeName>Individual ID</attributeName>
+          <attributeDefinition>A unique ID for each individual in dataset</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A unique ID for each individual in dataset</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="219.table_219.col_4409">
+          <attributeName>Clutch Completion</attributeName>
+          <attributeDefinition>Was the study nest observed with a full clutch, i.e., 2 eggs</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Was the study nest observed with a full clutch, i.e., 2 eggs</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="219.table_219.col_4410">
+          <attributeName>Date Egg</attributeName>
+          <attributeDefinition>Date study nest observed with 1 egg (sampled)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="219.table_219.col_4411">
+          <attributeName>Culmen Length</attributeName>
+          <attributeDefinition>length of the dorsal ridge of a bird's bill</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">decimal</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="219.table_219.col_4418">
+          <attributeName>Culmen Depth</attributeName>
+          <attributeDefinition>depth of the dorsal ridge of a bird's bill</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">decimal</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="219.table_219.col_4412">
+          <attributeName>Flipper Length</attributeName>
+          <attributeDefinition>Length of flipper</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="219.table_219.col_4413">
+          <attributeName>Body Mass</attributeName>
+          <attributeDefinition>Mass of body</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="219.table_219.col_4414">
+          <attributeName>Sex</attributeName>
+          <attributeDefinition>code for the sex of an animal</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>code for the sex of an animal</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="219.table_219.col_4415">
+          <attributeName>Delta 15 N</attributeName>
+          <attributeDefinition>a measure of the ratio of stable isotopes 15N:14N</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">decimal</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>permil</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="219.table_219.col_4416">
+          <attributeName>Delta 13 C</attributeName>
+          <attributeDefinition>a measure of the ratio of stable isotopes 13C:12C</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">decimal</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>permil</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="219.table_219.col_4417">
+          <attributeName>Comments</attributeName>
+          <attributeDefinition>Text field to provide additional relevant information for data</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Text field to provide additional relevant information for data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns="http://www.xml-cml.org/schema/stmml"
+        xmlns:sch="http://www.ascc.net/xml/schematron"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 stmml.xsd">
+        <stmml:unitType id="dimensionless" name="dimensionless">
+          <stmml:dimension name="dimensionless"/>
+        </stmml:unitType>
+        <stmml:unitType id="length" name="length">
+          <stmml:dimension name="length"/>
+        </stmml:unitType>
+        <stmml:unitType id="mass" name="mass">
+          <stmml:dimension name="mass"/>
+        </stmml:unitType>
+        <stmml:unitType id="massPerMass" name="massPerMass">
+          <stmml:dimension name="mass"/>
+        </stmml:unitType>
+        <stmml:unit abbreviation="m" id="meter" name="meter" unitType="length">
+          <stmml:description>SI unit of length</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="kg" id="kilogram" name="kilogram" unitType="mass">
+          <stmml:description>SI unit of mass</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="" id="gramsPerGram"
+          name="gramsPerGram" unitType="massPerMass">
+          <stmml:description>grams per gram</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="" id="number" name="number" unitType="dimensionless">
+          <stmml:description>a number</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="mm" constantToSI="0" id="millimeter"
+          multiplierToSI="0.001" name="millimeter" parentSI="meter" unitType="length">
+          <stmml:description>.001 meters</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="g" constantToSI="0" id="gram"
+          multiplierToSI="0.001" name="gram" parentSI="kilogram" unitType="mass">
+          <stmml:description>0.001 kg</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="o/oo" constantToSI="0" id="permil"
+          multiplierToSI="0.001" name="permil" parentSI="gramsPerGram" unitType="massPerMass">
+          <stmml:description>parts per thousand, relative to a standard. for isotopes. Isotope data
+            uses LC-delta=(Rx/Rs-1)*1000</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

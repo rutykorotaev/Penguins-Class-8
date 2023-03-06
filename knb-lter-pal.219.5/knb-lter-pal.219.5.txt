@@ -1,0 +1,497 @@
+
+  
+    
+      uid=PAL,o=lter,dc=ecoinformatics,dc=org
+      all
+    
+    
+      public
+      read
+    
+  
+  
+    219
+    doi:10.6073/pasta/98b16d7d563f265cb52372c8ca99e60f
+    Structural size measurements and isotopic signatures of foraging among adult male and
+      female Adélie penguins (Pygoscelis adeliae) nesting along the Palmer Archipelago near Palmer
+      Station, 2007-2009
+    
+      Palmer Station Antarctica LTER
+      			Palmer Station Antarctica LTER Office 208 Geoscience 61 Route 9W - PO Box
+          1000
+			Palisades, New York 10964-8000  USA
+    
+    
+      Kristen Gorman
+      Simon Fraser University, Vancouver, BC
+      kgorman@sfu.ca
+    
+    
+      Palmer Station Antarctica LTER
+      			Palmer Station Antarctica LTER Office 208 Geoscience 61 Route 9W - PO Box
+          1000
+			Palisades, New York 10964-8000  USA
+    
+    2017-03-29
+    Sexual segregation in vertebrate foraging niche is often associated with sexual size
+      dimorphism (SSD), i.e., ecological sexual dimorphism. We examined ecological sexual dimorphism
+      among sympatric nesting Pygoscelis penguins near Palmer Station, Antarctica, asking whether
+      environmental variability in the form of winter sea ice is associated with differences in male
+      and female pre-breeding foraging niche. Each season, study nests, where pairs of adults were
+      present, were individually marked and chosen before the onset of egg-laying, and consistently
+      monitored. When study nests were found at the one-egg stage, both adults were captured to
+      obtain blood samples used for molecular sexing and stable isotope analyses, and measurements
+      of structural size and body mass. At the time of capture, each adult penguin was quickly blood
+      sampled (~1 ml) from the brachial vein. After handling, individuals at study nests were
+      further monitored to ensure the pair reached clutch completion, i.e., two eggs. Molecular
+      analyses were conducted at Simon Fraser University following standard PCR protocols, and
+      stable isotope analyses were conducted at the Stable Isotope Facility at the University of
+      California, Davis using an elemental analyzer interfaced with an isotope ratio mass
+      spectrometer
+    
+      birds
+      biology
+      isotopes
+      LTER Controlled Vocabulary
+    
+    
+      This data package is released to the public domain under Creative Commons CC0 1.0 No
+        Rights Reserved (see: https://creativecommons.org/publicdomain/zero/1.0/). It is considered
+        professional etiquette to provide attribution of the original work if this data package is
+        shared in whole or by individual components. A generic citation is provided for this data
+        package on the website https://portal.edirepository.org (herein website” in the summary
+        metadata page. Communication (and collaboration) with the creators of this data package is
+        recommended to prevent duplicate research or publication. This data package (and its
+        components) is made available as is and with no warranty of accuracy or fitness for use.
+        The creators of this data package and the website shall not be liable for any damages
+        resulting from misinterpretation or misuse of the data package or its components. Periodic
+        updates of this data package may be available from the website. Thank you.
+    
+    
+      
+        http://oceaninformatics.ucsd.edu/datazoo/catalogs/pallter/datasets/219
+      
+    
+    
+      
+        
+          
+            2007
+          
+          
+            2009
+          
+        
+      
+    
+    
+      PAL LTER Information Manager
+      Palmer Station Antarctica LTER
+      pallter-im@ucsd.edu
+    
+    
+      Palmer Station Antarctica LTER
+      			Palmer Station Antarctica LTER Office 208 Geoscience 61 Route 9W - PO Box
+          1000
+			Palisades, New York 10964-8000  USA
+    
+    
+      
+        
+          
+            General Methods
+            Each season, study nests, where pairs of adults were present, were individually
+              marked and chosen before the onset of egg-laying, and consistently monitored. When
+              study nests were found at the one-egg stage, both adults were captured to obtain blood
+              samples used for molecular sexing and stable isotope analyses, and measurements of
+              structural size and body mass. At the time of capture, each adult penguin was quickly
+              blood sampled (~1 ml) from the brachial vein using a sterile 3 ml syringe and
+              heparinized infusion needle. Collected blood was stored in 1.5 ml micro-centrifuge
+              tubes that were kept cool. In the field, a small amount of whole blood was smeared on
+              clean filter paper stored in a 1.5 ml micro-centrifuge tube for molecular sexing.
+              Measurements of culmen length and depth (using dial calipers ± 0.1 mm), right flipper
+              (using a ruler ± 1 mm), and body mass (using 5 kg ± 25 g or 10 kg ± 50 g Pesola spring
+              scales and a weigh bag) were obtained to quantify body size variation. After handling,
+              individuals at study nests were further monitored to ensure the pair reached clutch
+              completion, i.e., two eggs. Molecular analyses were conducted at Simon Fraser
+              University following standard PCR protocols, and stable isotope analyses were
+              conducted at the Stable Isotope Facility at the University of California, Davis using
+              an elemental analyzer interfaced with an isotope ratio mass spectrometer
+          
+        
+      
+    
+    
+      StructuralsizemeasurementsandisotopicsignaturesAdeliePenguins
+      Main data table for dataset
+      
+        table_219.csv
+        ASCII
+        
+          
+            1
+            0
+            \n
+            column
+            
+              ,
+              "
+              \
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-pal/219/5/002f3893385f710df69eeebe893144ff
+          
+        
+      
+      
+        
+          studyName
+          Sampling expedition from which data were collected, generated, etc.
+          string
+          
+            
+              
+                
+                  Sampling expedition from which data were collected, generated, etc.
+                
+              
+            
+          
+        
+        
+          Sample Number
+          continuous numberng sequence for each sample
+          integer
+          
+            
+              
+                number
+              
+              
+                integer
+              
+            
+          
+          
+            NULL
+            No data available
+          
+        
+        
+          Species
+          a string representing the species of an organism
+          string
+          
+            
+              
+                
+                  a string representing the species of an organism
+                
+              
+            
+          
+          
+            NULL
+            No data available
+          
+        
+        
+          Region
+          Nominal region of Palmer LTER sampling grid
+          string
+          
+            
+              
+                
+                  Nominal region of Palmer LTER sampling grid
+                
+              
+            
+          
+          
+            NULL
+            No data available
+          
+        
+        
+          Island
+          Island near Palmer Station where samples were collected
+          string
+          
+            
+              
+                
+                  Island near Palmer Station where samples were collected
+                
+              
+            
+          
+          
+            NULL
+            No data available
+          
+        
+        
+          Stage
+          Reproductive stage at sampling
+          string
+          
+            
+              
+                
+                  Reproductive stage at sampling
+                
+              
+            
+          
+          
+            NULL
+            No data available
+          
+        
+        
+          Individual ID
+          A unique ID for each individual in dataset
+          string
+          
+            
+              
+                
+                  A unique ID for each individual in dataset
+                
+              
+            
+          
+          
+            NULL
+            No data available
+          
+        
+        
+          Clutch Completion
+          Was the study nest observed with a full clutch, i.e., 2 eggs
+          string
+          
+            
+              
+                
+                  Was the study nest observed with a full clutch, i.e., 2 eggs
+                
+              
+            
+          
+          
+            NULL
+            No data available
+          
+        
+        
+          Date Egg
+          Date study nest observed with 1 egg (sampled)
+          date
+          
+            
+              YYYY-MM-DD
+            
+          
+          
+            NULL
+            No data available
+          
+        
+        
+          Culmen Length
+          length of the dorsal ridge of a bird's bill
+          decimal
+          
+            
+              
+                millimeter
+              
+              
+                real
+              
+            
+          
+          
+            NULL
+            No data available
+          
+        
+        
+          Culmen Depth
+          depth of the dorsal ridge of a bird's bill
+          decimal
+          
+            
+              
+                millimeter
+              
+              
+                real
+              
+            
+          
+          
+            NULL
+            No data available
+          
+        
+        
+          Flipper Length
+          Length of flipper
+          integer
+          
+            
+              
+                millimeter
+              
+              
+                real
+              
+            
+          
+          
+            NULL
+            No data available
+          
+        
+        
+          Body Mass
+          Mass of body
+          integer
+          
+            
+              
+                gram
+              
+              
+                real
+              
+            
+          
+          
+            NULL
+            No data available
+          
+        
+        
+          Sex
+          code for the sex of an animal
+          string
+          
+            
+              
+                
+                  code for the sex of an animal
+                
+              
+            
+          
+          
+            NULL
+            No data available
+          
+        
+        
+          Delta 15 N
+          a measure of the ratio of stable isotopes 15N:14N
+          decimal
+          
+            
+              
+                permil
+              
+              
+                real
+              
+            
+          
+          
+            NULL
+            No data available
+          
+        
+        
+          Delta 13 C
+          a measure of the ratio of stable isotopes 13C:12C
+          decimal
+          
+            
+              
+                permil
+              
+              
+                real
+              
+            
+          
+          
+            NULL
+            No data available
+          
+        
+        
+          Comments
+          Text field to provide additional relevant information for data
+          string
+          
+            
+              
+                
+                  Text field to provide additional relevant information for data
+                
+              
+            
+          
+          
+            NULL
+            No data available
+          
+        
+      
+    
+  
+  
+    
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          SI unit of length
+        
+        
+          SI unit of mass
+        
+        
+          grams per gram
+        
+        
+          a number
+        
+        
+          .001 meters
+        
+        
+          0.001 kg
+        
+        
+          parts per thousand, relative to a standard. for isotopes. Isotope data
+            uses LC-delta=(Rx/Rs-1)*1000
+        
+      
+    
+  

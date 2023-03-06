@@ -1,0 +1,5 @@
+Manifest file for knb-lter-pal.219.5-4c9184f37cff01bcdc32dc486ec36961.zip created on Tue Jun 09 07:52:40 MDT 2020
+table_219.csv (23755 bytes)
+knb-lter-pal.219.5.xml (24840 bytes)
+knb-lter-pal.219.5.txt (12423 bytes)
+knb-lter-pal.219.5.report.xml (31210 bytes)
